@@ -1,0 +1,345 @@
+/* ======================================
+  Default Theme
+  ---------------------------------------
+  Fonts:
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Roboto', sans-serif;
+  ---------------------------------------
+  Colors:
+  Kombu Green:        #394032
+  Eerie Black:        #1E2019
+  Wintergreen Dream:  #587B7F
+  Artichoke:          #8DAB7F
+  Tea green:          #CFEE9E
+
+
+====================================== */
+/* ======================================
+            Html, body
+====================================== */
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #1E2019;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: "open sans", "sans-serif";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+section {
+  background: #fff;
+  overflow: hidden;
+}
+
+/* ======================================
+          Content boxes
+====================================== */
+.content-box-lg {
+  padding: 120px 0;
+}
+
+.content-box-md {
+  padding: 100px 0;
+}
+
+/* ======================================
+            Home
+====================================== */
+#home {
+  height: 100%;
+  background: none;
+}
+
+#home #background-image {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+#home-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#home-content {
+  position: relative;
+  display: block;
+  top: 45%
+}
+
+#home-content h1 {
+  font-family: 'Architects Daughter', cursive;
+  color: #394032
+}
+
+#home-content p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ======================================
+          Arrow down
+====================================== */
+#arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  color: #fff;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-left: -16px;
+  z-index: 1;
+}
+
+#arrow-down:hover, #arrow-down:focus {
+  color: #8DAB7F;
+}
+
+
+/* ======================================
+            About
+====================================== */
+#about h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+#about h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+#about img {
+  border: 1px solid #1E2019;
+}
+
+#about .about01 {
+  padding-right: 35px;
+}
+
+#about .about02 {
+  padding-left: 35px;
+}
+
+#about .img-klein {
+  padding: 0;
+}
+/* ======================================
+            Facility
+====================================== */
+#facility {
+  background: #DDD8B8;
+}
+
+
+#facility h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+
+#facility h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+/* ======================================
+            Recreatie
+====================================== */
+#recreatie h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+
+#recreatie h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+
+
+
+
+/* ======================================
+          Review
+====================================== */
+#review {
+  background: #DDD8B8;
+}
+
+#review h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+#review h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+
+.carousel {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+
+.carousel .item {
+  color: #1E2019;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.carousel .item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.carousel .testimonial {
+  padding: 30px 0 10px;
+}
+
+.carousel .overview {
+  font-style: italic;
+}
+
+.carousel .overview b {
+  text-transform: uppercase;
+  color: #7AA641;
+}
+
+.carousel .carousel-control {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+  background: none;
+}
+
+.carousel-control i {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 18px;
+  height: 0px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+
+.carousel-indicators li {
+  background: #8DAB7F;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+  background: #8DAB7F;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* ======================================
+          Footer
+====================================== */
+footer {
+  background: #8DAB7F;
+  padding: 15px;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+}
+
+footer p span {
+  color: #394032;
+}
